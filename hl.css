@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(77, 82, 89);
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px ;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin:0;
+    padding: 7.5px;
+}
+
+a{
+    text-decoration: none;
+    color:   rgb(49, 51, 52);
+    font-size: medium;
+}
+a:hover{
+    color: red;
+    
+}
+
+a:active{
+    color: green;
+}
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.box-1{
+    background-color: #ccc;
+    color: rgb(49, 51, 52);
+    border: 3px rgba(253, 251, 255, 0.831) solid ;
+    padding: 20px;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    
+
+}
+.box-1 h1{
+    text-align: center;
+    color:  rgb(49, 51, 52);
+    text-transform: uppercase;
+}
+.box-2{
+    border: 1px dotted #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    background-color:#ccc ;
+    color:  rgb(49, 51, 52);
+
+}
+
+.box-2 h1{
+    text-align: center;
+    color: rgb(49, 51, 52) ;
+    text-transform:uppercase;
+}
+
+.button{
+    background-color: black;
+    color: #ccc;
+    padding: 10px;
+    border: none;
+    float: right;
+}
+
+.button:hover{
+    background-color: red;
+    color: #fff;
+
+}
+
+.categories {
+  border: 2px double #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color:  #ccc;
+  color:  rgb(49, 51, 52);
+  border-radius: 25px;
+}
+
+.categories h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(49, 51, 52);
+
+}
+
+.categories ul{
+    text-decoration: none;
+    padding: 0px;
+    margin: 10px;
+    list-style: none;
+}
+.categories li{
+    text-decoration: none;
+    color:  rgb(49, 51, 52);
+    padding-bottom: 10px;
+    
+}
+.col{
+    float: left;
+    color: black;
+    width: 33.3%;
+    padding: 15px;
+    background-color: white;
+    
+   
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+.block{
+    float: left;
+    color: black;
+    width: 33.3%;
+    padding: 15px;
+    background-color: #ccc;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.row{
+    background-color: transparent;
+}
+
+
+
+.navbar{
+    background-color:white;
+}
+
+
